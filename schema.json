@@ -1,0 +1,55 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "OGP Server config",
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "hostname": {
+        "type": "string",
+        "default": "194.13.81.100"
+      },
+      "protocol": {
+        "type": "string",
+        "default": "http://"
+      },
+      "port": {
+        "type": "number",
+        "default": 80
+      },
+      "pathname": {
+        "type": "string",
+        "default": "ogp_api.php"
+      },
+      "agent": {
+        "type": "object",
+        "properties": {
+          "ip": {
+            "type": "string",
+            "default": "194.13.81.100"
+          },
+          "port": {
+            "type": "string"
+          },
+          "mod_key": {
+            "type": "string",
+            "default": "default"
+          }
+        },
+        "required": [
+          "ip",
+          "port",
+          "mod_key"
+        ]
+      }
+    },
+    "required": [
+      "name",
+      "hostname",
+      "protocol",
+      "port",
+      "pathname",
+      "agent"
+    ]
+  }

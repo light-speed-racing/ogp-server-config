@@ -1,0 +1,13 @@
+{
+    "$schema": "./schema.json",
+    "name": "Turbo Tuesday - Race",
+    "hostname": "194.13.81.100",
+    "pathname": "ogp_api.php",
+    "port": 80,
+    "protocol": "http",
+    "agent": {
+        "ip": "194.13.81.100",
+        "mod_key": "default",
+        "port": "9014"
+    }
+}
