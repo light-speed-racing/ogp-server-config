@@ -1,5 +1,5 @@
 {
-    "$schema": "./schema.json",
+    "$schema": "./.schema.json",
     "name": "Turbo Tuesday - Practice",
     "hostname": "194.13.81.100",
     "pathname": "ogp_api.php",
